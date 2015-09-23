@@ -1,0 +1,173 @@
+@charset "utf-8";
+/**
+ * @desc   栅格 商品展示列 rem单位
+ * @author 赵倩<54zhaoqian@gmail.com>
+ * @date   2015-09-01 
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  margin-top: .4rem;
+}
+.grid div {
+  min-height: 1.0rem;
+}
+.grid {
+  padding: 0 0.4rem;
+  zoom: 1;
+  box-sizing: content-box;
+}
+.grid:after {
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  overflow: hidden;
+}
+.col-1 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 0.9rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-1:last-child {
+  margin-right: 0;
+}
+.col-2 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 2.2rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-2:last-child {
+  margin-right: 0;
+}
+.col-3 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 3.5rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-3:last-child {
+  margin-right: 0;
+}
+.col-4 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 4.8rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-4:last-child {
+  margin-right: 0;
+}
+.col-5 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 6.1rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-5:last-child {
+  margin-right: 0;
+}
+.col-6 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 7.4rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-6:last-child {
+  margin-right: 0;
+}
+.col-7 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 8.7rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-7:last-child {
+  margin-right: 0;
+}
+.col-8 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 10rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-8:last-child {
+  margin-right: 0;
+}
+.col-9 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 11.3rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-9:last-child {
+  margin-right: 0;
+}
+.col-10 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 12.6rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-10:last-child {
+  margin-right: 0;
+}
+.col-11 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 13.9rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-11:last-child {
+  margin-right: 0;
+}
+.col-12 {
+  display: block;
+  float: left;
+  margin-right: 0.4rem;
+  width: 15.2rem;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-12:last-child {
+  margin-right: 0;
+}

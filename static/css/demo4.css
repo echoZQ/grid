@@ -1,0 +1,143 @@
+@charset "utf-8";
+/**
+ * @desc   栅格 商品展示列 百分比
+ * @author 赵倩<54zhaoqian@gmail.com>
+ * @date   2015-09-01 
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 12.0rem;
+  overflow: hidden;
+}
+.wrapper .grid {
+  margin-top: .4rem;
+}
+.wrapper .grid div {
+  min-height: 1.0rem;
+}
+.grid {
+  margin-right: -2.5%;
+  padding: 0 2.5%;
+  width: 100%;
+  zoom: 1;
+  box-sizing: content-box;
+}
+.grid:after {
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  overflow: hidden;
+}
+.col-1 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 5.625%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-2 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 13.75%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-3 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 21.875%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-4 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 30%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-5 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 38.125%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-6 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 46.25%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-7 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 54.375%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-8 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 62.5%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-9 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 70.625%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-10 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 78.75%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-11 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 86.875%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.col-12 {
+  display: block;
+  float: left;
+  margin-right: 2.5%;
+  width: 95%;
+  background: yellowgreen;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}

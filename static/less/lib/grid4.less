@@ -1,0 +1,47 @@
+/**
+ * @desc   栅格 商品展示列 百分比
+ * @author 赵倩<54zhaoqian@gmail.com>
+ * @date   2015-09-01 
+ */
+
+//两边槽宽
+@grid-gutter-width: .3rem; 
+//每列宽度
+@grid-column-width: 1.2rem; 
+//12个栅格
+@grid-nums: 12;
+//左右边距
+@grid-offset: .4rem;
+//栅格名称
+@grid-name: grid;
+
+.makeGrid(@grid-column-width, @grid-gutter-width, @grid-offset, @grid-name) {
+    .@{grid-name} {
+        margin-right: unit(-@grid-gutter-width * 100, ~"%");
+        padding: 0 unit(@grid-offset * 100, ~"%");
+        width: 100%;
+        zoom: 1;
+        box-sizing: content-box;
+        &:after {
+            content: "";
+            display: block;
+            height: 0;
+            font-size: 0;
+            clear: both;
+            overflow: hidden;
+        }
+    }
+    .generate-columns(12);
+    .generate-columns(@n, @i: 1) when(@i =< @n) {
+        .col-@{i} {
+            display: block;
+            float: left;
+            margin-right: unit(@grid-gutter-width * 100, ~"%");
+            width: unit((@grid-column-width * @i + @grid-gutter-width * (@i - 1)) * 100, ~"%");
+            background: yellowgreen;
+            border: 1px solid #000;
+            box-sizing: border-box;  
+        }
+        .generate-columns(@n, (@i + 1));
+    }
+}
